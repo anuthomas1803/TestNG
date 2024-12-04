@@ -18,7 +18,7 @@ public class ClientpageTestNew extends LoginpageTest {
 	  login.enter_passwordfield("1q2w3e4r");
       login.click_loginbuton();
       
-    //  driver.get("https://www.qabible.in/payrollapp/client/index");
+                                        //  driver.get("https://www.qabible.in/payrollapp/client/index");
       ClientPage client= new ClientPage(driver); 
       client.clientfield();
       client.enter_clientname("Sam");
